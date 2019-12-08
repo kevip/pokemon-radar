@@ -3,7 +3,7 @@ const appConfig = {
         API_URL: 'http://localhost:3001'
     },
     dev: {
-        API_URL: 'http://localhost:3001'
+        API_URL: 'https://pokeapi.now.sh'
     }
 }
 
