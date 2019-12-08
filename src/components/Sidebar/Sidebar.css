@@ -1,0 +1,12 @@
+.Sidebar {
+    align-items: flex-end;
+    display: inline-flex;
+    flex-direction: column;    
+    overflow: auto;
+}
+
+@media(max-width: 700px) {
+    .Sidebar {
+      flex-direction: row;
+    }
+}

@@ -1,0 +1,13 @@
+.PokemonLoader {
+    background: rgb(0,0,0,0.8);
+    color: white;
+    height: 100vh;
+    position: absolute;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.LoadingText {
+    font-size: 40px;
+}

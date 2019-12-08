@@ -1,0 +1,46 @@
+.SidebarItem {
+    align-items: flex-start;
+    background: linear-gradient(45deg, #fff, #ccc);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    cursor: pointer;
+    display: inline-flex;
+    flex-direction: column;
+    padding: 12px;
+    margin-bottom: 10px;
+    max-width: 300px;
+    width: 50%;
+    transition: width 0.3s ease-in-out;
+}
+.SidebarItem > .Name{
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.SidebarItem:first-of-type {
+    margin-top: 10px;
+}
+.SidebarItem:hover {
+    width: 85%;
+}
+.SidebarItem.active {
+    width: 55%;
+    background: linear-gradient(45deg, yellowgreen, #ccc);
+}
+.PokemonPreview {
+    width: 90px;
+    height: 90px;
+}
+@media(max-width: 700px) {
+    .SidebarItem {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 0;
+        margin-right: 10px;
+        margin-bottom: 0;
+        transition: all 0.3s ease-in-out;
+    }
+    .SidebarItem:hover {
+        height: 60%;
+    }
+}

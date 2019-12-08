@@ -1,0 +1,26 @@
+.PokeMarker {        
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.MarkerIcon {
+    background: radial-gradient( Peru,#fbfbfb, #fbfbfb,transparent, transparent);
+    cursor: pointer;
+}
+.MarkerIcon:hover + .MarkerCaption {
+    visibility: visible;
+    opacity: 1;
+}
+.MarkerCaption {
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+.MarkerName {
+    font-size: 24px;
+    font-weight: lighter;
+    margin: 0;
+    font-family: 'VT323', monospace;
+}

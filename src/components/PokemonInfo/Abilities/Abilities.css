@@ -1,0 +1,15 @@
+/* .PokemonAbilities {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.AbilityName {
+    display: inline-block;
+    font-size: 20px;
+    color: #fff;
+    margin: 0;
+    padding-bottom: 15px;
+}
+.AbilityName:first-of-type {
+    padding-top: 15px;
+} */
