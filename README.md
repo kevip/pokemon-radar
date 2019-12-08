@@ -1,4 +1,4 @@
-Demo del proyecto en este [link](https://github.com/kevip/pokemon-radar).
+Demo del proyecto en este [link](https://webapp.kevip114.now.sh/pokemons).
 
 ## Scripts disponibles:
 
