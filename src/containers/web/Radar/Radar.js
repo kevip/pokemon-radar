@@ -25,7 +25,7 @@ export default class Radar extends Component {
     loadData() {
         let loading = true;
         this.setState({...this.state, loading});        
-        fetch('http://localhost:3001/api/pokemons')
+        fetch('https://pokeapi.now.sh/api/pokemons')
             .then( res => res.json())
             .then( res => {            
                 const pokemons = res;
